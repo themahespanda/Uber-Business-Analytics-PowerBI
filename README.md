@@ -1,90 +1,125 @@
 # 🚕 Uber Business Analytics Dashboard | Power BI
 
-An interactive **Uber Business Analytics Dashboard** built using **Power BI, Excel, Power Query, and DAX** to analyze booking performance, revenue, vehicle performance, and business trends.
+An interactive **Uber Business Analytics Dashboard** built using **Power BI, Excel, Power Query, and DAX** to analyze booking performance, revenue, vehicle performance, customer ratings, distance, and business trends.
+
+---
 
 ## 📊 Project Overview
 
-This project transforms Uber ride-booking data into an interactive business intelligence dashboard. The dashboard is designed to provide a clear view of key operational and financial metrics and help users explore performance through interactive filters.
+This project transforms Uber ride-booking data into an interactive Business Intelligence dashboard.
 
-The current dashboard contains **3 analytical pages**:
+The dashboard provides a consolidated view of key operational and financial metrics and allows users to explore performance using interactive filters, vehicle selections, and monthly/quarterly analysis.
 
-1. Overview
-2. Vehicle Analysis
-3. Revenue Analysis
+### Dashboard Pages
+
+- 🏠 Home Page
+- 📊 Overview
+- 🚗 Vehicle Analysis
+- 💰 Revenue Analysis
+
+---
 
 ## 🎯 Business Objective
 
-The main objective of this project is to analyze Uber booking data and provide insights into:
+The objective of this project is to analyze Uber booking data and provide business insights into:
 
 - Booking performance
+- Completed and lost bookings
 - Revenue performance
 - Vehicle-level performance
 - Monthly and quarterly trends
+- Revenue by vehicle type
+- Revenue by payment method
 - Pickup and drop locations
-- Distance traveled
-- Rider and driver ratings
-- Payment methods
+- Total and average distance
+- Customer and driver ratings
+
+---
 
 ## 📌 Key KPIs
 
-The Overview page includes key performance indicators such as:
+The dashboard tracks important KPIs including:
 
+- **Booking Count**
 - **Completed Bookings**
 - **Lost Bookings**
 - **Revenue**
 - **Total Distance**
 - **Average Distance**
-- **Average Rider Rating**
+- **Average Customer Rating**
 - **Average Driver Rating**
 
-The dashboard also includes vehicle filters and additional report-level filters.
+The dashboard also provides interactive vehicle filters and additional report-level filtering.
+
+---
 
 ## 📑 Dashboard Pages
 
-### 1. 📊 Overview
+### 🏠 1. Home Page
 
-The Overview page provides a high-level summary of the Uber business performance.
+The Home Page provides an introduction to the Uber analytics dashboard and navigation to the main analytical pages.
+
+![Uber Home Page](Screenshots/Home%20Page.png)
+
+---
+
+### 📊 2. Overview
+
+The Overview page provides a high-level summary of Uber business performance.
 
 **Analysis includes:**
 
+- Booking Count
 - Completed Bookings
 - Lost Bookings
 - Revenue
 - Total Distance
-- Average Distance
 - Monthly Booking Analysis
 - Monthly Revenue Analysis
-- Quarterly Booking Analysis
-- Quarterly Revenue Analysis
+- Monthly / Quarterly view
 - Revenue by Vehicle Type
-- Top Pickup Locations
-- Top Drop Locations
-- Average Rider Rating
+- Top Pickup Location
+- Top Drop Location
+- Average Customer Rating
 - Average Driver Rating
+- Completed, Cancelled, and Incomplete ride analysis
 
-### 2. 🚗 Vehicle Analysis
+![Uber Overview](Screenshots/Overview.png)
 
-The Vehicle page focuses on performance by vehicle type.
+---
+
+### 🚗 3. Vehicle Analysis
+
+The Vehicle Analysis page provides detailed performance information by vehicle type.
 
 **Metrics include:**
 
-- Booking Count
 - Revenue
-- Contribution
+- Average Distance
+- Booking Count
+- Completed Bookings
+- Revenue by Month
+- Vehicle-level comparison
 
-This page helps compare the performance and contribution of different vehicle types.
+![Vehicle Analysis](Screenshots/Vehicle-Analysis.png)
 
-### 3. 💰 Revenue Analysis
+---
 
-The Revenue page provides a detailed view of revenue performance.
+### 💰 4. Revenue Analysis
+
+The Revenue Analysis page provides a detailed breakdown of revenue performance.
 
 **Analysis includes:**
 
-- Revenue by Customer
-- Revenue by Vehicle
+- Monthly Revenue Trend
+- Revenue by Vehicle Type
 - Revenue by Payment Method
-- Monthly Revenue
-- Quarterly Revenue
+- Revenue by Customer
+- Monthly and quarterly analysis
+
+![Revenue Analysis](Screenshots/Revenue-Analysis.png)
+
+---
 
 ## 🎛️ Interactive Features
 
@@ -94,10 +129,22 @@ The dashboard includes:
 - Vehicle-level filtering
 - Monthly and quarterly analysis
 - Dynamic KPI monitoring
-- Hide/Show filter panel
-- Detailed analytical views
+- Vehicle selection
+- Detailed analytical tables
+- Navigation between dashboard pages
+- Hide/Show filter panel for a cleaner dashboard layout
 
-A **Hide/Show Filter Panel** was added to maintain a clean dashboard layout while allowing users to access multiple filters when required.
+---
+
+## 🎥 Dashboard Demo
+
+A complete Power BI dashboard demonstration is available as a separate video.
+
+**▶️ [Watch the Full Power BI Dashboard Demo](YOUR_VIDEO_LINK)**
+
+> Replace `YOUR_VIDEO_LINK` with your Google Drive or other hosted video link.
+
+---
 
 ## 🛠️ Tools & Technologies
 
@@ -108,39 +155,7 @@ A **Hide/Show Filter Panel** was added to maintain a clean dashboard layout whil
 | **DAX** | Measures and analytical calculations |
 | **Microsoft Excel** | Source data and data preparation |
 
-## 🎥 Dashboard Demo
-
-A demonstration video of the complete Power BI dashboard is included with the project.
-
-> **Demo:** Add your YouTube/Google Drive video link here.
-
-Example:
-
-```markdown
-[▶️ Watch the Full Power BI Dashboard Demo](YOUR_VIDEO_LINK)
-```
-
-## 📸 Dashboard Preview
-
-Add screenshots of the completed dashboard pages here.
-
-### Overview
-
-```markdown
-![Uber Overview](screenshots/overview.png)
-```
-
-### Vehicle Analysis
-
-```markdown
-![Vehicle Analysis](screenshots/vehicle-analysis.png)
-```
-
-### Revenue Analysis
-
-```markdown
-![Revenue Analysis](screenshots/revenue-analysis.png)
-```
+---
 
 ## 💡 Business Areas Analyzed
 
@@ -154,14 +169,28 @@ The project covers the following business areas:
 - Pickup and drop locations
 - Monthly trends
 - Quarterly trends
-- Rider ratings
+- Customer ratings
 - Driver ratings
+
+---
 
 ## 📂 Project Files
 
-- `uber.pbix` — Power BI dashboard file
-- `uber.xlsx` — Supporting Excel dataset
-- `README.md` — Project documentation
+```text
+Uber-Business-Analytics-PowerBI/
+│
+├── README.md
+├── uber.pbix
+├── uber.xlsx
+│
+└── Screenshots/
+    ├── Home Page.png
+    ├── Overview.png
+    ├── Vehicle-Analysis.png
+    └── Revenue-Analysis.png
+```
+
+---
 
 ## 🚀 Skills Demonstrated
 
@@ -178,15 +207,21 @@ This project demonstrates practical skills in:
 - Business Requirement Analysis
 - Interactive Dashboard Design
 
+---
+
 ## 📋 Business Requirements
 
-The dashboard was developed based on defined business requirements covering KPI monitoring, monthly and quarterly analysis, vehicle performance, revenue analysis, location analysis, ratings, and interactive filtering.
+The dashboard was developed based on defined business requirements covering KPI monitoring, monthly and quarterly analysis, vehicle performance, revenue analysis, ratings, locations, and interactive filtering.
+
+The current implementation focuses on the **Home, Overview, Vehicle Analysis, and Revenue Analysis** pages.
+
+---
 
 ## 👨‍💻 Author
 
 **Mahesh Panda**
 
-This project was developed as a **Data Analytics / Business Intelligence portfolio project**.
+Data Analytics & Business Intelligence Portfolio Project
 
 ---
 
