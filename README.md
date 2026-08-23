@@ -140,7 +140,7 @@ The dashboard includes:
 
 A complete Power BI dashboard demonstration is available as a separate video.
 
-**▶️ [Watch the Full Power BI Dashboard Demo][(YOUR_VIDEO_LINK)](https://drive.google.com/file/d/17kFtJ0UdlJZrTammUSKYbT0dH_LpfVM9/view?usp=sharing)**
+**▶️ [Watch the Full Power BI Dashboard Demo] (https://drive.google.com/file/d/1sbzhsc-gS4uKPx8nYYNPFMgi1OV1AA3G/view?usp=sharing)**
 
 > Replace `YOUR_VIDEO_LINK` with your Google Drive or other hosted video link.
 
